@@ -151,4 +151,4 @@ AUTHENTICATION_BACKENDS = (
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 DISQUS_WEBSITE_SHORTNAME='touring-1'
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
